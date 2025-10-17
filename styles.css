@@ -70,6 +70,14 @@ article[data-testid="test-profile-card"] {
   width: 100%;
 }
 
+/* Horizontal rules/separators */
+hr {
+  border: 0;
+  height: 1px;
+  background: #e0e0e0;
+  margin: var(--spacing-medium) 0;
+}
+
 /* Profile header */
 .profile-header {
   display: flex;
