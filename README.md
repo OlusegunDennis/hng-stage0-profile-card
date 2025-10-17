@@ -12,7 +12,7 @@ A responsive, accessible profile card project built for HNG Internship Stage 0. 
 
 ## Live Demo
 
-[View Live Demo on Netlify](https://your-deployed-site.netlify.app)
+[View Live Demo on Netlify](https://dennis-o-hng-stage0-profile-card.netlify.app/)
 
 ## Screenshots
 
