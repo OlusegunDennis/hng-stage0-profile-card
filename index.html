@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNG Profile Card - Olusegun Dennis</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <article data-testid="test-profile-card" role="region" aria-labelledby="test-user-name">
+    <div class="profile-header">
+      <figure>
+        <img data-testid="test-user-avatar" src="assets/my-pic.jpeg" alt="Photo of Olusegun Dennis">
+        <figcaption class="sr-only">Profile picture of Olusegun Dennis</figcaption>
+      </figure>
+
+      <div class="profile-text">
+        <header role="banner">
+          <h2 data-testid="test-user-name" id="profile-name">OLUSEGUN DENNIS</h2>
+        </header>
+
+        <p data-testid="test-user-bio" id="profile-bio">Passionate frontend developer focused on creating accessible and responsive web interfaces with clean code.</p>
+
+        <span data-testid="test-user-time" aria-label="Current timestamp"></span>
+
+        <nav aria-label="Social media links">
+          <ul data-testid="test-user-social-links" role="list">
+            <li role="listitem">
+              <a 
+                href="https://x.com/dennis_olu73583?s=21" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                data-testid="test-user-social-twitter"
+                aria-label="Link to X (Twitter)"
+              >
+                X
+              </a>
+            </li>
+            <li role="listitem">
+              <a 
+                href="https://github.com/olusegundennis" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                data-testid="test-user-social-github"
+                aria-label="Link to GitHub"
+              >
+                GitHub
+              </a>
+            </li>
+            <li role="listitem">
+              <a 
+                href="https://instagram.com/dennis_technollogy" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                data-testid="test-user-social-instagram"
+                aria-label="Link to Instagram"
+              >
+                Instagram
+              </a>
+            </li>
+            <li role="listitem">
+              <a 
+                href="https://www.linkedin.com/in/dennis-olusegun-/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                data-testid="test-user-social-linkedin"
+                aria-label="Link to LinkedIn"
+              >
+                LinkedIn
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section aria-labelledby="hobbies-heading">
+      <h3 id="hobbies-heading">Hobbies</h3>
+      <ul data-testid="test-user-hobbies" role="list">
+        <li role="listitem">Web Development</li>
+        <li role="listitem">Reading Tech Blogs</li>
+        <li role="listitem">Driving</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="dislikes-heading">
+      <h3 id="dislikes-heading">Dislikes</h3>
+      <ul data-testid="test-user-dislikes" role="list">
+        <li role="listitem">Poor Accessibility</li>
+        <li role="listitem">Unoptimized Code</li>
+        <li role="listitem">Non-responsive Design</li>
+      </ul>
+    </section>
+  </article>
+
+  <script src="script.js"></script>
+</body>
+</html>

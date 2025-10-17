@@ -1,0 +1,4 @@
+# Files to ignore when pushing to the repository
+qwen.md
+changelog.md
+report.md
